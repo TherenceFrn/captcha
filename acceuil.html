@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Projet ISN</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+
+  <h1>Page Acceuil</h1>
+
+<script type="text/javascript" src="scipt.js">
+
+      if(compte != compteImages){
+
+        alert('Vous n\'avez pas accès à cette page sans avoir complété le Captcha');
+
+        document.location.href="index.html"; 
+      }else{
+
+
+      }
+  
+</script>
+
+<script>
+
+        var captchaValid = true;
+        if(captchaValid == false){
+
+        alert("Vous n'avez pas validé le captcha de la page index.html");
+        document.location.href="index.html"; 
+
+        }else if(captchaValid == true){
+
+        alert("Vous avez validé le captcha de la page index.html");
+        
+        }
+  
+</script>
+
+</body>
+
+</html>

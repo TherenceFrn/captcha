@@ -1,0 +1,134 @@
+table{
+	border: 1px solid black;
+}
+
+td{
+	width: 150px;
+}
+
+img{
+
+	max-width: 100%;
+}
+
+.hidden{
+
+	visibility: hidden;
+}
+
+.shown{
+
+	visibility: visible;
+}
+
+#reinImages,#validCaptcha{
+
+	cursor: pointer;
+}
+
+#gen-captcha{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	background: none;
+	border: 1px solid #4285F4;
+	border-radius: 15px;
+	padding: 5px 15px;
+	outline: none;
+	cursor: pointer;
+	color: black;
+}
+
+#gen-captcha:hover{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	box-shadow: 0 0 15px #4285F4;
+	border-radius: 15px;
+	padding: 5px 15px;
+	outline: none;
+}
+
+#gen-captcha:active{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	box-shadow: 0 0 15px #4285F4;
+	border-radius: 15px;
+	padding: 5px 15px;
+	outline: none;
+	background-color: #4285F4;
+	color: white;
+}
+
+
+#captchaTable{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+table{
+
+	/*border: 1px solid grey;*/
+	border: none;
+}
+
+thead tr{
+	margin: 15px;
+	
+}
+
+thead tr th{
+
+	background-color: #3498db;
+	color: white;
+	margin: 0;
+	font-family: montserrat, sans-serif;
+	font-size: 50px;
+	margin: 15px;
+
+}
+
+thead tr th:hover{
+
+	background-color: #2980b9;
+}
+
+tfoot td{
+
+	background-color: #3498db;
+	color:white;
+	font-family: montserrat, sans-serif;
+	padding: 10px;
+	font-size: 15px;
+}
+
+tfoot td:hover,
+tfoot td:active
+{
+
+	background-color: #2980b9;
+
+}
+tfoot tr td{
+
+	text-align: center;
+}
+
+tbody tr td,
+tbody tr,
+tbody{
+margin: 0;
+}
