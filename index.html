@@ -1,0 +1,57 @@
+  <!DOCTYPE html>
+
+  <html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Projet ISN</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  </head>
+
+  <body>
+
+    <input type="button" name="gen-captcha" id="gen-captcha" onClick="captchaGen();" value="Accéder à la page">
+
+     <table id="captchaTable" class="hidden">
+      <thead>
+          <tr>
+              <th colspan="3">Captcha</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td class="tdImages" onClick="tdclicked(1);" id="tableTd1"></td>
+              <td class="tdImages" onClick="tdclicked(2);" id="tableTd2"></td>
+              <td class="tdImages" onClick="tdclicked(3);" id="tableTd3"></td>
+          </tr>
+           <tr>
+             <td class="tdImages" onClick="tdclicked(4);" id="tableTd4"></td>
+              <td class="tdImages" onClick="tdclicked(5);" id="tableTd5"></td>
+              <td class="tdImages" onClick="tdclicked(6);" id="tableTd6"></td>
+          </tr>
+           <tr>
+              <td class="tdImages" onClick="tdclicked(7);" id="tableTd7"></td>
+              <td class="tdImages" onClick="tdclicked(8);" id="tableTd8"></td>
+              <td class="tdImages" onClick="tdclicked(9);" id="tableTd9"></td>
+          </tr>
+      </tbody>
+      <tfoot>
+          <tr>
+              <td id="reinImages" onClick="rein();" ><a>Changer d'image</a></td>
+              <td></td>
+              <td id="validCaptcha"><a>Valider</a></td>
+          </tr>
+      </tfoot>
+  </table>
+  <script type="text/javascript" src="scipt.js">
+    
+  </script>
+
+  </body>
+
+  </html>
